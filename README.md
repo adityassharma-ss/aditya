@@ -2,45 +2,14 @@
 <h2 align="center">
 <br/>
 
-<a  href="http://boidushya.com/"  target="_blank">boidushya.com</a>
+<a  href="http://"  target="_blank">aditya</a>
 
 </h2>
 
-<div align="center">
-
-<img  alt="Demo"  src="./public/assets/ss.png" />
-
-</div>
-
-  
-
-<br/>
-
-  
-
-<center>
-
-  
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-
-![GitHub Repo stars](https://img.shields.io/github/stars/boidushya/boidushya.com?color=red&logo=github&style=for-the-badge) &nbsp;
-
-![GitHub forks](https://img.shields.io/github/forks/boidushya/boidushya.com?color=red&logo=github&style=for-the-badge)
-
-  
-
-</center>
-
-  
 
 <h3 align="center">
-🔹<a  href="https://github.com/boidushya/boidushya.com/issues">Report Bug</a> &nbsp; &nbsp;
-🔹<a  href="https://github.com/boidushya/boidushya.com/issues">Request Feature</a>
+🔹<a  href="https://github.com/adityassharma-ss/aditya/issues">Report Bug</a> &nbsp; &nbsp;
+🔹<a  href="https://github.com/adityassharma-ss/aditya/issues">Request Feature</a>
 </h3>
   
 
@@ -48,54 +17,21 @@
 
 ## TL;DR
 
-  
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [boidushya](https://github.com/boidushya/boidushya.com). Thanks!
-
-  
-
-## Built With
-
-  
-
-My personal portfolio <a  href="http://boidushya.com/"  target="_blank">boidushya.com</a> made using ReactJS and styled-components emulating a macOS terminal among other features.<br/>
-  
+Special Thanks ❤️ to <a  href="http://github.com/Boidushya"  target="_blank">@Boidushya</a> for this project. I have made several changes in the project & added few more features accordingly.
   
 This project was built using these technologies.
 
-  
-
-- React.js
-
-- Node.js
-
-- CSS3
-
-- VsCode
-
-- Vercel
-
-  
+- React.js - Node.js - CSS3 - VsCode
 
 ## Features
 
-  
-
 **📖 Multi-Page Layout**
-
-  
 
 **🎨 Styled with React-Js and Css with easy to customize colors**
 
-  
-
 **📱 Fully Responsive**
 
-  
-
 ## Getting Started
-
-  
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
