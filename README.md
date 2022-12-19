@@ -30,6 +30,13 @@ This project was built using these technologies.
 **🎨 Styled with React-Js and Css with easy to customize colors**
 
 **📱 Fully Responsive**
+<img width="960" alt="Screenshot_20221219_201127" src="https://user-images.githubusercontent.com/82082352/208453126-cde38d0c-58fb-42b0-a3b3-bf8944a61954.png">
+
+<img width="960" alt="Screenshot_20221219_201212" src="https://user-images.githubusercontent.com/82082352/208453173-2d80b422-eabe-43ec-8f91-6d18fa9439bc.png">
+
+<img width="960" alt="Screenshot_20221219_201235" src="https://user-images.githubusercontent.com/82082352/208453191-adc29303-7b5f-4b50-afb9-d2b22f1b5fc6.png">
+
+<img width="960" alt="Screenshot_20221219_201143" src="https://user-images.githubusercontent.com/82082352/208453158-2f0cf182-9ffd-4934-9235-74cc8759f0ce.png">
 
 ## Getting Started
 
