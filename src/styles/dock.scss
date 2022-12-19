@@ -1,0 +1,98 @@
+$img-dim: 1.5rem;
+$img-padding: 0.5rem;
+
+.main-contain .dock {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	left: 0;
+	margin-bottom: 0.5rem;
+}
+
+.main-contain .dock-nav {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0px;
+	width: fit-content;
+	display: block;
+	background: rgba(200, 200, 200, 0.3);
+	box-shadow: inset 0 0 0.15em rgba(200, 200, 200, 0.45);
+	border-radius: 0.75rem;
+	backdrop-filter: blur(5px);
+}
+
+.main-contain .dock-nav ul {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	display: flex;
+	gap: 0.75rem;
+}
+
+.main-contain .dock-nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+	transition: all 0.3s linear;
+	cursor: pointer;
+	background: #fff;
+	border-radius: 0.65rem;
+	display: grid;
+	place-items: center;
+	-webkit-transition: -webkit-transform 0.2s
+		cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: -webkit-transform 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	transition: transform 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55),
+		-webkit-transform 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+		rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.main-contain .dock-nav ul li img {
+	width: $img-dim;
+	height: $img-dim;
+	padding: $img-padding;
+}
+
+.main-contain .dock-nav ul li.full-width-icon {
+	background: transparent;
+	width: $img-dim + 2 * $img-padding;
+	height: $img-dim + 2 * $img-padding;
+	& img {
+		width: $img-dim + 2 * $img-padding;
+		height: $img-dim + 2 * $img-padding;
+		padding: 0;
+	}
+}
+
+.main-contain .dock-nav ul li:hover {
+	transform: translateY(-0.5rem) scale(1.1);
+	&:after {
+		content: attr(data-title);
+		position: absolute;
+		color: #fff;
+		background: rgba(23, 23, 23, 0.85);
+		font-size: 1rem;
+		top: -100%;
+		position: absolute;
+		width: fit-content;
+		white-space: nowrap;
+		border-radius: 0.25rem;
+		padding: 0.25rem 0.75rem;
+	}
+}
+
+.main-contain .dock-nav ul .separator {
+	width: 0.1rem;
+	height: $img-dim + ($img-padding);
+	border-radius: 1000rem;
+	background: rgba(176, 176, 176, 0.8);
+	margin: 0 0.0675rem;
+}

@@ -1,0 +1,80 @@
+.menu-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	background: rgba(244, 213, 245, 66%);
+	backdrop-filter: blur(5px);
+	color: #1c1d1f;
+	width: 100%;
+	padding: 0.05rem;
+	height: 1.6rem;
+	box-sizing: border-box;
+	font-size: 0.875rem;
+	font-weight: 500;
+	top: -1px;
+	img {
+		height: 70%;
+		padding: 0.1rem;
+	}
+	.app-menus > div {
+		&:nth-child(2) {
+			font-weight: 700;
+		}
+		.apple {
+			height: 70%;
+			padding: 0.1rem;
+		}
+		margin-left: 1.45rem;
+	}
+	.right-side {
+		float: right;
+		> div {
+			margin-right: 1rem;
+			img {
+				height: 50%;
+				padding: 0.25rem;
+				opacity: 0.8;
+			}
+			&:nth-child(4) {
+				img {
+					height: 70%;
+					padding: 0.2rem;
+				}
+			}
+			&:last-child {
+				margin-right: 1.45rem;
+				font-size: 0.875rem;
+			}
+			.time {
+				margin-left: 0.4em;
+			}
+		}
+	}
+	.app-menus,
+	.right-side {
+		height: 100%;
+		display: inline-block;
+		> div {
+			height: 100%;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	.app-menus,
+	.right-side {
+		height: 100%;
+		display: flex;
+		align-items: center;
+		> div {
+			height: min-content;
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	.img-container {
+		height: 100% !important;
+		display: flex !important;
+		align-items: center;
+	}
+}
