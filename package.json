@@ -1,5 +1,6 @@
 {
 	"name": "client",
+	"homepage": "http://adityassharma-ss.github.io/aditya",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -14,7 +15,7 @@
 		"react-dom": "^17.0.2",
 		"react-draggable": "^4.4.3",
 		"react-ga": "^3.3.0",
-		"react-router-dom": "^5.2.0",
+		"react-router-dom": "^5.3.4",
 		"react-scripts": "4.0.3",
 		"sass": "^1.35.1",
 		"simplebar-react": "^2.3.4",
@@ -24,6 +25,8 @@
 	},
 	"scripts": {
 		"start": "craco start",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"build": "craco build",
 		"test": "craco test",
 		"eject": "react-scripts eject"
@@ -48,6 +51,7 @@
 	},
 	"devDependencies": {
 		"craco-alias": "^3.0.1",
+		"gh-pages": "^4.0.0",
 		"react-error-overlay": "^6.0.9"
 	}
 }
