@@ -1,8 +1,8 @@
 import React, { Suspense, lazy } from "react";
-import Default from "@components/Default";
-import Loader from "@elements/Loader/Loader";
+import Default from "../components/Default";
+import Loader from "../elements/Loader/Loader";
 const ProjectsContent = lazy(() =>
-	import("@elements/Projects/ProjectsContent")
+	import("../elements/Projects/ProjectsContent")
 );
 
 const Projects = () => {

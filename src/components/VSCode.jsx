@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
-import Default from "@components/Default";
-import Loader from "@elements/Loader/Loader";
-const VSCodeContent = lazy(() => import("@elements/VSCode/VSCodeContent"));
+import Default from "../components/Default";
+import Loader from "../elements/Loader/Loader";
+const VSCodeContent = lazy(() => import("../elements/VSCode/VSCodeContent"));
 
 const VSCode = () => {
 	return (

@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
-import Default from "@components/Default";
-import Loader from "@elements/Loader/Loader";
-const GitContent = lazy(() => import("@elements/Git/GitContent"));
+import Default from "../components/Default";
+import Loader from "../elements/Loader/Loader";
+const GitContent = lazy(() => import("../elements/Git/GitContent"));
 
 const Resume = () => {
 	return (

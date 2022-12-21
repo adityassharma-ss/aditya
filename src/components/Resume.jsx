@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
-import Default from "@components/Default";
-import Loader from "@elements/Loader/Loader";
-const ResumeContent = lazy(() => import("@elements/Resume/ResumeContent"));
+import Default from "../components/Default";
+import Loader from "../elements/Loader/Loader";
+const ResumeContent = lazy(() => import("../elements/Resume/ResumeContent"));
 
 const Resume = () => {
 	return (
