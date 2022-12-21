@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Dekko
+- Font Author: Copyright (c) 2000, Modular Infotech, Pune, INDIA. Copyright (c) 2014, Sorkin Type Co, Boston, MA, USA (www.sorkintype.com)
+- Font Source: http://fonts.gstatic.com/s/dekko/v19/46khlb_wWjfSrttFR0vsfl1B.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
