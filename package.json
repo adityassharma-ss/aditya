@@ -1,8 +1,8 @@
 {
 	"name": "client",
-	"homepage": "http://adityassharma-ss.github.io/aditya",
+	"homepage": "https://adityassharma-ss.github.io/",
 	"version": "0.1.0",
-	"private": true,
+	"private": false,
 	"dependencies": {
 		"@craco/craco": "^6.2.0",
 		"@testing-library/jest-dom": "^5.11.4",
