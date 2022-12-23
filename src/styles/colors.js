@@ -1,3 +1,5 @@
+import React from "react";
+
 const colors = {
 	headerBgStart: "rgba(250, 250, 250,1)",
 	headerBgEnd: "rgba(220, 220, 220,1)",
