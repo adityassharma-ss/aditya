@@ -52,12 +52,12 @@ Open-Source:
 
 Score-spec | Link : Score is an open source, platform-agnostic, container-based workload specification. I am currently working to unify CLI tools and defining JSON schema.
 
+LinkFree | Link : LinkFree is an open source project that allows you to create a simple, beautiful, and responsive landing page for your social media links. I have contributed to the project by adding a new template.
+
 Certifications:
 
-Python Programming - GOOGLE
-CCNA Practitioner - CISCO Academy
-Java-MongoDB - MongoDB University
-Cloud Computing - LinkedIn Learning.
+Python Programming - GOOGLE           CCNA Practitioner - CISCO Academy
+Java-MongoDB - MongoDB University     Cloud Computing - LinkedIn Learning.
 
 Honors & Awards:
 

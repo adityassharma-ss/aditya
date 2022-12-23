@@ -6,6 +6,7 @@ import GithubIcon from "@static/github.png";
 import twitterIcon from "@static/twitterIcon.png";
 import FolderIcon from "@static/folder.png";
 import LinkedInIcon from "@static/LinkedInIcon.png";
+import NothingIcon from "@static/NothingIcon.png";
 import { Link } from "react-router-dom";
 
 
@@ -62,6 +63,16 @@ const DockContent = () => {
 										src={LinkedInIcon}
 										className="img-fluid"
 										alt="dope"
+									/>
+								</li>
+							</a>
+							<a href="https://thisdoesnothing.vercel.app/" target="_blank">
+								<li data-title="This Does Nothing">
+									<img
+										src
+										={NothingIcon}
+										className="img-fluid"
+										alt="mac"
 									/>
 								</li>
 							</a>
