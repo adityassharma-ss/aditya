@@ -1,5 +1,4 @@
-import React from "react";
-import Color from "color";
+
 
 const colors = {
 	headerBgStart: "rgba(250, 250, 250,1)",

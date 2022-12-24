@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "@styles/dock.scss";
 import FinderIcon from "@static/finder.png";
@@ -8,6 +9,7 @@ import FolderIcon from "@static/folder.png";
 import LinkedInIcon from "@static/LinkedInIcon.png";
 import NothingIcon from "@static/NothingIcon.png";
 import { Link } from "react-router-dom";
+// import MyResume from "../Resume/resume/MyResume.pdf"
 
 
 const DockContent = () => {
@@ -77,6 +79,7 @@ const DockContent = () => {
 								</li>
 							</a>
 							<div className="separator" />
+							<a>
 							<Link to="/resume">
 								<li data-title="Resume">
 									<img
@@ -86,6 +89,7 @@ const DockContent = () => {
 									/>
 								</li>
 							</Link>
+							</a>
 						</ul>
 					</div>
 				</div>
