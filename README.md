@@ -17,7 +17,7 @@
 
 ## TL;DR
 
-Special Thanks ❤️ to <a  href="http://github.com/Boidushya"  target="_blank">@Boidushya</a> for this project. I have made several changes in the project & added few more features accordingly.
+Special Thanks ❤️ to <a  href="http://github.com/Boidushya"  target="_blank">@Boidushya</a> for the help. I have made several changes in the project & added few more features accordingly.
   
 This project was built using these technologies.
 
