@@ -3,6 +3,8 @@ import AppleIcon from "@static/apple.png";
 import BatteryIcon from "@static/battery.png";
 import WifiIcon from "@static/wifi.png";
 import ControlCenterIcon from "@static/controlcenter.png";
+import NotifyIcon from "@static/NotifyIcon.png";
+import IcloudIcon from "@static/IcloudIcon.png";
 
 const formatMinutes = min => {
 	return min < 10 ? "0" + min : min;
@@ -53,10 +55,12 @@ const MenuContent = props => {
 			"File",
 			"Edit",
 			"View",
+			"Chat",
 			"Window",
 			"Help",
 		],
 		[
+			// <img src={IcloudIcon} alt="Cloud icon" className="right-icon" />,
 			<img src={BatteryIcon} alt="Battery icon" className="right-icon" />,
 			<img src={WifiIcon} alt="Wifi icon" className="right-icon" />,
 			<img
@@ -64,6 +68,7 @@ const MenuContent = props => {
 				alt="Control Center icon"
 				className="right-icon"
 			/>,
+			<img src={NotifyIcon} alt="Notify icon" className="right-icon" />,
 			convertToReadableDate(Date.now()),
 		],
 	];

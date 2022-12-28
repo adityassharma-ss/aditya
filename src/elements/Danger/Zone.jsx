@@ -12,7 +12,7 @@ const Zone = () => {
 			<Iframe
 				src="https://www.youtube.com/watch?v=UtF6Jej8yb4"
 				frameborder="0"
-				allow="accelerometer; autoplay;"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			></Iframe>
 		</BodyContent>
 	);
