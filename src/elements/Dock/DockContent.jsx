@@ -10,6 +10,7 @@ import LinkedInIcon from "@static/LinkedInIcon.png";
 import NothingIcon from "@static/NothingIcon.png";
 import { Link } from "react-router-dom";
 import DevopsIcon from "@static/DevopsIcon.png";
+import mIcon from "@static/mIcon.jpg";
 // import MyResume from "../Resume/resume/MyResume.pdf"
 
 
@@ -69,7 +70,17 @@ const DockContent = () => {
 									/>
 								</li>
 							</a>
-							<a href="https://github.com/" target="_blank">
+							<a href="https://minimalinfo.vercel.app/" target="_blank">
+								<li data-title="Minimal Info">
+									<img
+										src
+										={mIcon}
+										className="img-fluid"
+										alt="mac"
+									/>
+								</li>
+							</a>
+							<a href="https://thisdoesnothing.vercel.app/" target="_blank">
 								<li data-title="This Does Nothing">
 									<img
 										src
