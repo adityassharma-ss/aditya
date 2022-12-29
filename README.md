@@ -30,11 +30,12 @@ This project was built using these technologies.
 **🎨 Styled with React-Js and Css with easy to customize colors**
 
 **📱 Fully Responsive**
-<img width="960" alt="Screenshot_20221219_201127" src="https://user-images.githubusercontent.com/82082352/208453126-cde38d0c-58fb-42b0-a3b3-bf8944a61954.png">
+![Aditya's portfolio website - Brave 12_29_2022 11_14_08 AM](https://user-images.githubusercontent.com/82082352/209908656-7b80fc16-2c29-46ff-af6d-80b8e3d1af45.png)
 
-<img width="960" alt="Screenshot_20221219_201212" src="https://user-images.githubusercontent.com/82082352/208453173-2d80b422-eabe-43ec-8f91-6d18fa9439bc.png">
+![Aditya's portfolio website - Brave 12_29_2022 11_15_25 AM](https://user-images.githubusercontent.com/82082352/209908658-ebe15e4c-6b7f-48fc-891f-aa26bac54b8f.png)
 
-<img width="960" alt="Screenshot_20221219_201235" src="https://user-images.githubusercontent.com/82082352/208453191-adc29303-7b5f-4b50-afb9-d2b22f1b5fc6.png">
+![Aditya's portfolio website - Brave 12_29_2022 11_17_19 AM](https://user-images.githubusercontent.com/82082352/209908661-ae777c82-4906-4ad1-b343-1a95a48e2bac.png)
+
 
 <img width="960" alt="Screenshot_20221219_201143" src="https://user-images.githubusercontent.com/82082352/208453158-2f0cf182-9ffd-4934-9235-74cc8759f0ce.png">
 
