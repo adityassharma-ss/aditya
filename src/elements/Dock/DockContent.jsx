@@ -80,7 +80,7 @@ const DockContent = () => {
 									/>
 								</li>
 							</a>
-							<a href="https://thisdoesnothing.vercel.app/" target="_blank">
+							{/* <a href="https://thisdoesnothing.vercel.app/" target="_blank">
 								<li data-title="This Does Nothing">
 									<img
 										src
@@ -89,7 +89,7 @@ const DockContent = () => {
 										alt="mac"
 									/>
 								</li>
-							</a>
+							</a> */}
 							<a href="https://github.com/adityassharma-ss/DevOps" target="_blank">
 								<li data-title="My DevOps Portal">
 									<img

@@ -81,7 +81,7 @@ let commandList = [
 		action: true,
 		response: 'Visit: <a href="https://twitter.com/aadityatwt">aadityatwt</a>',
 		subPathStrict: [false],
-		description: "checkout my Twitter profile",
+		description: "checkout my twitter profile",
 	  },
 	  {
 		name: ["github"],
@@ -95,23 +95,31 @@ let commandList = [
 		action: true,
 		response: 'Visit: <a href="https://www.linkedin.com/in/aditya-sharma-47b787201/">LinkedIn</a>',
 		subPathStrict: [false],
-		description: "checkout my LinkedIn profile",
+		description: "checkout mylinkedIn profile",
 	  },
-	// {
-	// 	name: ["projects", "./projects", "projects.app", "./projects.app"],
-	// 	// action: { PROJECTS: "" },
-	// 	action: false,
-	// 	response: "Under construction 🚧🔨",
-	// 	subPathStrict: [false],
-	// 	description: "checkout my projects",
-	// },
+	{
+		name: ["projects", "./projects", "projects.app", "./projects.app"],
+		// action: { PROJECTS: "" },
+		action: false,
+		response: 'Page Under Development 🚧🔨 | Until then Visit: <a href="https://minimalinfo.vercel.app/">"minimalinfo" to checkout my projects</a>',
+		subPathStrict: [false],
+		description: "checkout my projects",
+	},
+	{
+		name: ["whoami"],
+		action: true,
+		response: "Hi there! My name is Aditya Sharma and I am a driven and passionate third year Btech student with a strong foundation in programming languages such as Java, C++, and Python. I have also gained valuable experience in cloud computing and DevOps, specifically using tools and technologies like Docker, Kubernetes, and ArgoCD. I am deeply interested in web development and open source projects, and have had the opportunity to work on a number of real-life projects that have allowed me to apply my skills and problem-solving abilities. In my free time, you can find me on my GitHub profile, https://github.com/adityassharma-ss, where I actively contribute to and collaborate on various open source projects. I am always seeking to learn and grow as a developer, and am excited to see where my interests and skills in cloud computing and DevOps will take me in the future. I am eager to apply my knowledge and abilities to meaningful projects and make a positive impact in the tech industry.",
+		subPathStrict: [false],
+		description:
+			"displays my information",
+	},
 	{
 		name: ["fetchme"],
 		action: false,
 		response: `<pre>${neofetch}</pre>`,
 		subPathStrict: [false],
 		description:
-			"my information",
+			"fetches my information in a cool way", 
 	},
 	{
 		name: ["code"],
@@ -140,24 +148,7 @@ let commandList = [
 		action: true,
 		response: "",
 		subPathStrict: [false],
-		description: "displays this message ",
-	},
-	{
-		name: ["uname"],
-		action: true,
-		response:
-			"Darwin MacBook-Pro.local 20.1.0 Darwin Kernel Version 20.1.0: Sun Jul 18 10:32:00 PDT 2021; root:xnu-7195.50.7~2/RELEASE_ARM64_T8101 arm64",
-		subPathStrict: [false],
-		description:
-			"prints the Darwin OS Kernel version / release / machine name. ",
-	},
-	{
-		name: ["whoami"],
-		action: true,
-		response: "Aditya Sharma <br/> I'm a Full Stack Developer & DevOps Engineer",
-		subPathStrict: [false],
-		description:
-			"prints the full name of the current administrator when invoked",
+		description: "displays detailed information about the commands",
 	},
 ];
 
