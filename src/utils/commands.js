@@ -84,9 +84,9 @@ let commandList = [
 		description: "checkout my twitter profile",
 	  },
 	  {
-		name: ["github"],
+		name: ["github", "git",".github"],
 		action: true,
-		response: 'Visit: <a href="https://github.com/adityassharma-ss">aditya</a>',
+		response: 'Visit: <a href="https://github.com/adityassharma-ss">my github @adityassharma-ss</a>',
 		subPathStrict: [false],
 		description: "checkout my github profile",
 	  },
