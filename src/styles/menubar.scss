@@ -13,68 +13,71 @@
 	font-size: 0.875rem;
 	font-weight: 500;
 	top: -1px;
-	img {
-		height: 70%;
-		padding: 0.1rem;
-	}
-	.app-menus > div {
-		&:nth-child(2) {
-			font-weight: 700;
-		}
-		.apple {
-			height: 70%;
-			padding: 0.1rem;
-		}
-		margin-left: 1.45rem;
-	}
-	.right-side {
-		float: right;
-		> div {
-			margin-right: 1rem;
-			img {
-				height: 50%;
-				padding: 0.25rem;
-				opacity: 0.8;
-			}
-			&:nth-child(4) {
-				img {
-					height: 70%;
-					padding: 0.2rem;
-				}
-			}
-			&:last-child {
-				margin-right: 1.45rem;
-				font-size: 0.875rem;
-			}
-			.time {
-				margin-left: 0.4em;
-			}
-		}
-	}
-	.app-menus,
-	.right-side {
-		height: 100%;
-		display: inline-block;
-		> div {
-			height: 100%;
-			display: inline-block;
-			vertical-align: top;
-		}
-	}
-	.app-menus,
-	.right-side {
-		height: 100%;
-		display: flex;
-		align-items: center;
-		> div {
-			height: min-content;
-			display: inline-block;
-			vertical-align: top;
-		}
-	}
-	.img-container {
-		height: 100% !important;
-		display: flex !important;
-		align-items: center;
-	}
 }
+
+.menu-bar img {
+	height: 70%;
+	padding: 0.1rem;
+  }
+  
+  .menu-bar .app-menus > div:nth-child(2) {
+	font-weight: 700;
+  }
+  
+  .menu-bar .app-menus > div .apple {
+	height: 70%;
+	padding: 0.1rem;
+  }
+  
+  .menu-bar .app-menus > div {
+	margin-left: 1.45rem;
+  }
+  
+  .menu-bar .right-side {
+	float: right;
+  }
+  
+  .menu-bar .right-side > div {
+	margin-right: 1rem;
+  }
+  
+  .menu-bar .right-side > div img {
+	height: 50%;
+	padding: 0.25rem;
+	opacity: 0.8;
+  }
+  
+  .menu-bar .right-side > div:nth-child(4) img {
+	height: 70%;
+	padding: 0.2rem;
+  }
+  
+  .menu-bar .right-side > div:last-child {
+	margin-right: 1.45rem;
+	font-size: 0.875rem;
+  }
+  
+  .menu-bar .right-side > div .time {
+	margin-left: 0.4em;
+  }
+  
+  .menu-bar .app-menus,
+  .menu-bar .right-side {
+	height: 100%;
+	display: flex;
+	align-items: center;
+  }
+  
+  .menu-bar .app-menus > div,
+  .menu-bar .right-side > div {
+	height: min-content;
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  .menu-bar .img-container {
+	height: 100% !important;
+	display: flex !important;
+	align-items: center;
+  }
+  

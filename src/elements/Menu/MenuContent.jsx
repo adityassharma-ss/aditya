@@ -4,7 +4,7 @@ import BatteryIcon from "@static/battery.png";
 import WifiIcon from "@static/wifi.png";
 import ControlCenterIcon from "@static/controlcenter.png";
 import NotifyIcon from "@static/NotifyIcon.png";
-import IcloudIcon from "@static/IcloudIcon.png";
+// import IcloudIcon from "@static/IcloudIcon.png";
 
 const formatMinutes = min => {
 	return min < 10 ? "0" + min : min;

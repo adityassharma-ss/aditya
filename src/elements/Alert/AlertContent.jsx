@@ -114,7 +114,7 @@ const AlertContent = ({ type }) => {
 	useEffect(() => {
 		switch (type) {
 			case "hideHelp":
-				setTextContent("Type help to get started");
+				setTextContent("Type help to get started & act like you're in a terminal!");
 				break;
 			case "qemu":
 				setTextContent(
