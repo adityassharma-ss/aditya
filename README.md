@@ -2,7 +2,7 @@
 <h2 align="center">
 <br/>
 
-<a  href="https://aditya-sage.vercel.app/"  target="_blank">aditya</a>
+<p  align="center"> Visit my portfolio <a  href="https://aditya-sage.vercel.app/"  target="_blank">aditya</a> </p>
 
 </h2>
 
@@ -15,70 +15,26 @@
 
   
 
-## TL;DR
+## Welcome to Aditya's Portfolio Website
 
-Special Thanks ❤️ to <a  href="http://github.com/Boidushya"  target="_blank">@Boidushya</a> for the help. I have made several changes in the project & added few more features accordingly.
-  
-This project was built using these technologies.
+Are you looking for a sleek and modern portfolio website that stands out from the crowd? Look no further! Aditya's portfolio website is the perfect choice for showcasing your projects and skills.
 
-- React.js - Node.js - CSS3 - VsCode
+Built using the latest technologies such as React.js, Node.js, CSS3, and VsCode, this website offers a unique and interactive experience for visitors. The website emulates the look of a macOS terminal and is fully responsive, ensuring that it looks great on any device.
 
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Js and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-![Aditya's portfolio website - Brave 12_29_2022 11_14_08 AM](https://user-images.githubusercontent.com/82082352/209908656-7b80fc16-2c29-46ff-af6d-80b8e3d1af45.png)
-
-![Aditya's portfolio website - Brave 12_29_2022 11_15_25 AM](https://user-images.githubusercontent.com/82082352/209908658-ebe15e4c-6b7f-48fc-891f-aa26bac54b8f.png)
-
-![Aditya's portfolio website - Brave 12_29_2022 11_17_19 AM](https://user-images.githubusercontent.com/82082352/209908661-ae777c82-4906-4ad1-b343-1a95a48e2bac.png)
-
-
-<img width="960" alt="Screenshot_20221219_201143" src="https://user-images.githubusercontent.com/82082352/208453158-2f0cf182-9ffd-4934-9235-74cc8759f0ce.png">
-
+With a multi-page layout and easy to customize colors using React-Js and CSS, this website is perfect for anyone looking to make a lasting impression.
 ## Getting Started
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Clone down this repository and run npm install followed by npm start in the project directory. The website can be accessed by opening http://localhost:3000 in a browser.
+## Customizing Your Website
 
-  
+Navigate to the /src/components/ folder to find all the components used in the website. You can edit your information accordingly and make the website your own.
+Show Your Support
 
-## 🛠 Installation and Setup Instructions
+If you like this website, please give it a ⭐. Your support is greatly appreciated!
+## Special Thanks
 
-  
+A special thanks to Boidushya for the help in creating this website.
+## Conclusion
 
-1. Installation: `npm install`
-
-  
-
-2. In the project directory, you can run: `npm start`
-
-  
-
-Runs the app in the development mode.
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.
-
-  
-
-## Usage Instructions
-
-  
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-
-You will find all the components used and you can edit your information accordingly.
-
-  
-
-### Show your support
-
-  
-
-Give a ⭐ if you like this website!
-
+Aditya's portfolio website is the perfect choice for anyone looking to make a lasting impression. With its unique design, interactive features and easy customization options, you're sure to stand out from the crowd. Give it a try today and see for yourself!
   
