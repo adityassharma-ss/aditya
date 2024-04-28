@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
-// eslint-disable-next-line
 import styled, { css, keyframes } from "styled-components";
 import DataContext from "@contexts/Data/DataContext";
 import theme from "@styles/theme";
@@ -23,7 +22,6 @@ const Wrapper = styled(SimpleBarReact)`
 	overflow-x: hidden;
 `;
 
-//eslint-disable-next-line
 const Line = styled(SimpleBarReact)`
 	// white-space: pre;
 	overflow: auto;

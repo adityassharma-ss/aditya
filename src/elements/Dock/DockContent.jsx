@@ -6,12 +6,10 @@ import ContactIcon from "@static/contact.png";
 import FinderIcon from "@static/finder.png";
 import CodeIcon from "@static/code.png";
 import GithubIcon from "@static/github.png";
-import twitterIcon from "@static/twitterIcon.png";
 import FolderIcon from "@static/folder.png";
-import LinkedInIcon from "@static/LinkedInIcon.png";
 import NothingIcon from "@static/NothingIcon.png";
 import { Link } from "react-router-dom";
-import { useDockStore } from "@contexts/Dock/Dock";
+// import { useDockStore } from "@contexts/Dock/Dock";
 import DevopsIcon from "@static/DevopsIcon.png";
 import mIcon from "@static/mIcon.jpg";
 
@@ -53,24 +51,6 @@ const DockContent = () => {
 									/>
 								</li>
 							</Link>
-							<a href="https://twitter.com/aadityatwt">
-								<li data-title="Twitter">
-									<img
-										src={twitterIcon}
-										className="img-fluid"
-										alt="mac"
-									/>
-								</li>
-							</a>
-							<a href="https://www.linkedin.com/in/aditya-sharma-47b787201">
-								<li data-title="LinkedIn">
-									<img
-										src={LinkedInIcon}
-										className="img-fluid"
-										alt="dope"
-									/>
-								</li>
-							</a>
 							<a href="https://minimalinfo.vercel.app/" target="_blank">
 								<li data-title="Minimal Info">
 									<img
