@@ -8,6 +8,7 @@ import CodeIcon from "@static/code.png";
 import GithubIcon from "@static/github.png";
 import FolderIcon from "@static/folder.png";
 import NothingIcon from "@static/NothingIcon.png";
+import WiseIcon from "@static/cow.png";
 import { Link } from "react-router-dom";
 // import { useDockStore } from "@contexts/Dock/Dock";
 import DevopsIcon from "@static/DevopsIcon.png";
@@ -61,16 +62,16 @@ const DockContent = () => {
 									/>
 								</li>
 							</a>
-							{/* <a href="https://thisdoesnothing.vercel.app/" target="_blank">
-								<li data-title="This Does Nothing">
+							<a href="https://wisecow.vercel.app/" target="_blank">
+								<li data-title="Wisecow">
 									<img
 										src
-										={NothingIcon}
+										={WiseIcon}
 										className="img-fluid"
 										alt="mac"
 									/>
 								</li>
-							</a> */}
+							</a>
 							<a href="https://github.com/adityassharma-ss/DevOps" target="_blank">
 								<li data-title="My DevOps Portal">
 									<img
