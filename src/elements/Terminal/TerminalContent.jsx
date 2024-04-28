@@ -100,7 +100,6 @@ const InputLine = props => {
 	const { commands, setCommand, path } = useContext(DataContext);
 	const [counter, setCounter] = useState(commands.length);
 	const [typing, setTyping] = useState(false);
-	// eslint-disable-next-line
 	const [disabled, setDisabled] = useState(false);
 	const inputRef = useRef();
 	const cursorRef = useRef();
@@ -115,7 +114,6 @@ const InputLine = props => {
 				e.preventDefault();
 			});
 		}
-		//eslint-disable-next-line
 	}, []);
 
 	useEffect(() => {
@@ -134,7 +132,6 @@ const InputLine = props => {
 				clearInterval(timer);
 			};
 		}
-		//eslint-disable-next-line
 	}, [disabled, alertHidden]);
 
 	useEffect(() => {

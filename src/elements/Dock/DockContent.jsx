@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 import "@styles/dock.scss";
+import TerminalIcon from "@static/terminal.png";
+import ContactIcon from "@static/contact.png";
 import FinderIcon from "@static/finder.png";
 import CodeIcon from "@static/code.png";
 import GithubIcon from "@static/github.png";
@@ -9,10 +11,9 @@ import FolderIcon from "@static/folder.png";
 import LinkedInIcon from "@static/LinkedInIcon.png";
 import NothingIcon from "@static/NothingIcon.png";
 import { Link } from "react-router-dom";
+import { useDockStore } from "@contexts/Dock/Dock";
 import DevopsIcon from "@static/DevopsIcon.png";
 import mIcon from "@static/mIcon.jpg";
-// import MyResume from "../Resume/resume/MyResume.pdf"
-
 
 const DockContent = () => {
 	return (
@@ -28,7 +29,7 @@ const DockContent = () => {
 									className="full-width-icon"
 								>
 									<img
-										src={FinderIcon}
+										src={TerminalIcon}
 										className="img-fluid"
 										alt="mac"
 									/>
@@ -106,6 +107,17 @@ const DockContent = () => {
 								<li data-title="Resume">
 									<img
 										src={FolderIcon}
+										className="img-fluid"
+										alt="mac"
+									/>
+								</li>
+							</Link>
+							</a>
+							<a>
+							<Link to="/contact">
+							<li data-title="Contact">
+									<img
+										src={ContactIcon}
 										className="img-fluid"
 										alt="mac"
 									/>

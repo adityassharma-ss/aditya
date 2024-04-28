@@ -11,7 +11,13 @@ const Iframe = styled.iframe`
 const ResumeContent = ({ title, content }) => {
     return (
         <BodyContent>
-            <Iframe src="https://drive.google.com/file/d/1oOMnXsSu0fN86GZNubZ2-73tRJQuMH0Z/view?usp=sharing" frameBorder="0" title="VsCode"></Iframe>
+           <iframe src="https://drive.google.com/file/d/1SH_lZGXx4qAJN128_Q18yNozmpMIjcyF/preview"
+           width="100%"
+           height="100%"
+           frameborder="0"
+           title="Aditya's Resume"
+           >
+           </iframe>
         </BodyContent>
     );
 };
